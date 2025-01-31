@@ -1,0 +1,11 @@
+{
+    "rules": {
+      "no-unused-vars": "off",
+      "no-console": "off",
+      "semi": "off",
+      "quotes": "off",
+      "indent": "warn",
+      "curly": "off"
+    }
+  }
+  
