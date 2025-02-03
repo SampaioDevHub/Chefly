@@ -4,7 +4,7 @@ import { RootStackParamList } from '~/types/navigation.type';
 
 import InitialScreen from '../screens/InicialScreen/page';
 import SignUp from '../screens/SignUp/page';
-import SignIn from '~/screens/sign-In/page';
+import SignIn from '../screens/SignIn/page';
 import WelcomeScreen from '../screens/WelcomeScreen/page';
 
 const Stack = createStackNavigator<RootStackParamList>();

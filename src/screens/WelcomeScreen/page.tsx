@@ -16,7 +16,7 @@ export default function WelcomeScreen() {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} testID="WelcomeScreen">
       <ScrollView style={styles.scrollView}>
         <Image
           source={{
@@ -47,7 +47,10 @@ export default function WelcomeScreen() {
           />
           <Text style={styles.text4}>{'Continuar com o Google'}</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.buttonRow3} onPress={handleNavigateSignUp}>
+        <TouchableOpacity
+          style={styles.buttonRow3}
+          onPress={handleNavigateSignUp}
+          testID="SignUpButton">
           <Image
             source={{
               uri: 'https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/4ee34a16-dcf8-4c76-9e58-d6101e0b36af',

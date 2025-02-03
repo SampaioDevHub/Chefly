@@ -1,4 +1,4 @@
-import Routes from '~/routes';
+import Routes from './src/routes';
 
 import 'react-native-gesture-handler';
 
