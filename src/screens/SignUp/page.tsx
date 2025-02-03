@@ -1,8 +1,10 @@
 import { View, Text } from "react-native";
 
-export default function Signup () {
+import { styles } from './styles';
+
+export default function SignUp () {
     return (
-        <View>
+        <View style={styles.container}>
             <Text>Tela de Cadastro</Text>
         </View>
     )
