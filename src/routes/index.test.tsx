@@ -1,5 +1,7 @@
-import { fireEvent, render, waitFor, screen, act } from '@testing-library/react-native';
+import { fireEvent, render, waitFor, screen } from '@testing-library/react-native';
 import Routes from '../routes';
+
+// test suit para testar a renderização das rotas e navegações entre todas as páginas
 describe('Navigation tests', () => {
   it('should navigate to Welcome Screen', async () => {
     // renderiza o componente <Routes/>
