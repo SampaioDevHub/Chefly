@@ -1,11 +1,19 @@
 {
-    "rules": {
-      "no-unused-vars": "off",
-      "no-console": "off",
-      "semi": "off",
-      "quotes": "off",
-      "indent": "warn",
-      "curly": "off"
-    }
+  "env": {
+    "es6": true, // Habilita recursos do ES6+
+    "node": true, // Habilita variáveis globais do Node.js
+    "browser": true // Habilita variáveis globais do navegador (opcional, se for um projeto web)
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020, // Usa a versão mais recente do ECMAScript
+    "sourceType": "module" // Permite o uso de declarações import/export
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "semi": "off",
+    "quotes": "off",
+    "indent": "warn",
+    "curly": "off"
   }
-  
+}
