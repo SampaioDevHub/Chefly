@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
   imageBackground: {
     height: height * 0.75, // Ajuste para 45% da altura da tela
     width: width, // A largura ocupará 100% da tela
-    paddingTop: 10,
+    paddingTop: -20,
     paddingBottom: 20,
     marginBottom: 25,
   },
@@ -59,7 +59,7 @@ export const styles = StyleSheet.create({
   },
   buttonContainer: {
     alignItems: 'center',
-    marginTop: 20, // Ajuste para posicionar o botão mais para cima
-    marginBottom: 30, // Espaço inferior para não colar no fundo
+    marginTop: 5.5, // Ajuste para posicionar o botão mais para cima
+    marginBottom: 40, // Espaço inferior para não colar no fundo
   },
 });
